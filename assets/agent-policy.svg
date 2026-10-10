@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract Physical AI project illustration</title>
+  <desc id="desc">An abstract agent network connected to a robotic gripper.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e4f2ef"/>
+      <stop offset="1" stop-color="#dbe5f0"/>
+    </linearGradient>
+    <linearGradient id="arm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#17435f"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" rx="38" fill="url(#bg)"/>
+  <g fill="none" stroke="#7ca5a3" stroke-width="8" opacity=".65">
+    <path d="M120 170 260 95 400 175 330 315 170 330Z"/>
+    <path d="M260 95 330 315 400 175M120 170 400 175M170 330 400 175"/>
+  </g>
+  <g fill="#fff" stroke="#0f766e" stroke-width="12">
+    <circle cx="120" cy="170" r="28"/>
+    <circle cx="260" cy="95" r="28"/>
+    <circle cx="400" cy="175" r="28"/>
+    <circle cx="330" cy="315" r="28"/>
+    <circle cx="170" cy="330" r="28"/>
+  </g>
+  <path d="M420 226C500 232 526 282 538 340" fill="none" stroke="#0f766e" stroke-width="14" stroke-linecap="round" stroke-dasharray="14 24"/>
+  <g fill="none" stroke="url(#arm)" stroke-width="42" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M565 438 625 325 735 380 805 260"/>
+  </g>
+  <g fill="#fff" stroke="#17435f" stroke-width="15">
+    <circle cx="565" cy="438" r="35"/>
+    <circle cx="625" cy="325" r="35"/>
+    <circle cx="735" cy="380" r="35"/>
+  </g>
+  <g fill="none" stroke="#17435f" stroke-width="24" stroke-linecap="round">
+    <path d="M805 260 850 210M805 260 866 286"/>
+    <path d="M850 210 884 224M866 286 894 270"/>
+  </g>
+  <circle cx="400" cy="175" r="12" fill="#f2a74b"/>
+  <circle cx="805" cy="260" r="12" fill="#f2a74b"/>
+</svg>
