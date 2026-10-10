@@ -1,9 +1,9 @@
 :root {
-  --background: #faf9f6;
-  --surface: #f2f1ec;
-  --ink: #202321;
-  --muted: #69716d;
-  --line: #dedfd9;
+  --background: #f7f8fa;
+  --surface: #ffffff;
+  --ink: #202124;
+  --muted: #6b7280;
+  --line: #e3e6ea;
   --accent: #0f766e;
   --accent-soft: #d9eeea;
   --max-width: 1040px;
@@ -99,9 +99,9 @@ p { margin: 0 0 1rem; }
 }
 .work-visual strong { font-family: Georgia, serif; font-size: 1.45rem; line-height: 1.02; font-weight: 500; }
 .visual-kicker { font-size: .62rem; font-weight: 800; letter-spacing: .13em; }
-.design-agent { background: #eee7da; color: #62452c; }
-.search-agent { background: #e8e3ed; color: #554063; }
-.work-copy > p { margin-bottom: .45rem; color: #4f5753; font-size: .91rem; line-height: 1.55; }
+.design-agent { background: #eef2f6; color: #3f4852; }
+.search-agent { background: #f0f1f5; color: #4b4f63; }
+.work-copy > p { margin-bottom: .45rem; color: #4b5563; font-size: .91rem; line-height: 1.55; }
 .work-copy .meta { color: var(--accent); font-size: .76rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
 .work-copy .result { color: var(--ink); font-weight: 620; }
 .work-copy .release-soon {
@@ -117,7 +117,7 @@ p { margin: 0 0 1rem; }
 .work-links a { font-weight: 650; }
 
 .publication-list { margin: 0; padding: 0; list-style: none; }
-.publication-list li { display: grid; grid-template-columns: 62px 1fr; gap: .8rem; padding: .7rem 0; border-bottom: 1px dotted #ced0ca; line-height: 1.45; }
+.publication-list li { display: grid; grid-template-columns: 62px 1fr; gap: .8rem; padding: .7rem 0; border-bottom: 1px dotted #d7dce2; line-height: 1.45; }
 .publication-list li:last-child { border-bottom: 0; }
 .publication-list a { color: var(--ink); text-decoration: none; }
 .publication-list a:hover { color: var(--accent); }
@@ -125,7 +125,7 @@ p { margin: 0 0 1rem; }
 .publication-list .year { padding-top: .06rem; font-size: .78rem; font-weight: 700; }
 
 .timeline { display: flex; flex-direction: column; }
-.timeline > div { display: grid; grid-template-columns: 125px 1fr; gap: 1rem; padding: .75rem 0; border-bottom: 1px dotted #ced0ca; }
+.timeline > div { display: grid; grid-template-columns: 125px 1fr; gap: 1rem; padding: .75rem 0; border-bottom: 1px dotted #d7dce2; }
 .timeline time { color: var(--muted); font-size: .83rem; }
 .timeline p { margin: 0; }
 
