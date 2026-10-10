@@ -40,20 +40,12 @@ a:hover { color: #095b55; }
   width: 152px;
   height: 152px;
   margin: 0 auto 1.5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  overflow: hidden;
+  display: block;
   border-radius: 50%;
-  background: var(--accent-soft);
-  border: 1px solid #b7d6d1;
-  color: var(--accent);
-  font-family: Georgia, serif;
-  font-size: 3.2rem;
-  letter-spacing: -.08em;
+  border: 3px solid var(--surface);
+  box-shadow: 0 7px 22px rgba(31, 41, 55, .14);
+  object-fit: cover;
 }
-.portrait span:first-child { align-self: start; padding-top: 1.25rem; }
-.portrait span:last-child { align-self: end; padding-bottom: 1.1rem; }
 .profile h1 { margin: 0; font-family: Georgia, serif; font-size: 2rem; letter-spacing: -.025em; }
 .role { margin: .3rem 0 1rem; color: var(--muted); font-size: .94rem; line-height: 1.45; }
 .focus { color: var(--muted); font-size: .78rem; line-height: 1.55; text-transform: uppercase; letter-spacing: .07em; }
